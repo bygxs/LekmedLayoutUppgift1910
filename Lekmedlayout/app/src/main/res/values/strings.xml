@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lekmedlayout</string>
+    <string name="first_text">Hello world</string>
+<string name="second_text"> Lorum ipsum dolor consectetur adipiscing elit.
+    Quisque luctus massa sit amet maximus lobortis. Fusce quis mi tellus.
+    Maecenas porta urna ut porttitor efficitur. Aliquam erat volutpat.
+    Curabitur eu nisl tellus. Nulla ullamcorper, quam eget egestas cursus,
+    odio dolor pretium massa, quis tempor ipsum est ullamcorper augue.
+    Quisque finibus scelerisque dignissim. Aenean ex nisi, lobortis
+    in sem nec, tempor consequat risus. Nulla semper convallis pellentesque.
+    Aenean molestie arcu et quam luctus, et convallis nisi tristique.
+    Aliquam dolor mauris, ultrices sit amet pulvinar non, laoreet
+    eget lorem. Fusce molestie urna eget vulputate porta. Lorem
+    ipsum dolor sit amet,
+    consectetur adipiscing elit. </string>
+    <string name="back_botton">Back</string>
+    <string name="pause_button">Pause</string>
+    <string name="forward_buttton">Forward</string>
+
+
+</resources>

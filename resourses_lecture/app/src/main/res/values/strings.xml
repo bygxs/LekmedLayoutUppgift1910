@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">resourses_lecture</string>
+
+
+
+    <string name="top_text">TITLE</string>
+    <string name="top_text1">En ny text</string>
+    <string name="hello_world2">Hello World!</string>
+</resources>

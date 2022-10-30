@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="29dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="105dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginBottom="17dp"
+            android:text="@string/maybe"
+            app:layout_constraintBottom_toTopOf="@+id/radioButton2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="152dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="259dp"
+            android:layout_marginTop="54dp"
+            android:text="@string/no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boondoggle"
+            app:layout_constraintVertical_bias="0.226" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="232dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="112dp"
+            android:text="@string/sayhello"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="163dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginBottom="44dp"
+            android:text="@string/yes"
+            app:layout_constraintBottom_toTopOf="@+id/boondoggle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <ImageView
+            android:id="@+id/boondoggle"
+            android:layout_width="260dp"
+            android:layout_height="201dp"
+            android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boondoggled" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="277dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginBottom="1dp"
+            android:text="@string/diss_like"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boondoggle" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="136sp"
+            android:layout_height="71dp"
+
+
+            android:layout_marginStart="138dp"
+            android:layout_marginEnd="137dp"
+            android:layout_marginBottom="31dp"
+            android:text="@string/bygs"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="480dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="135dp"
+            android:layout_marginBottom="111dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toTopOf="@+id/boondoggle"
+            app:layout_constraintEnd_toStartOf="@+id/radioButton3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

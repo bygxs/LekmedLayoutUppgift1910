@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Restaurang Hitta på</string>
+
+    <string name="meny_ett">paneradekyckling:Rena smaker av perfekt stekt kyckling, som blir extra krispig av panering, ljuvliga rosmarinspommes och en härlig coleslaw som får extra sting av senap i dressingen.
+ </string>
+    <string name="meny_två"> Nötfärssmoussaka: en ljuvlig nötfärsmoussaka med lök, zucchini och rostad aubergine. Vi toppar vår moussaka med crème fraiche och ost, och serverar den med en fräsch morotssallad med persilja.</string>
+    <string name="meny_tre">BiffBurger: Köttet får spännande smak av att marineras i balsamvinäger innan det steks till perfektion. Vi bygger våra burgare med pestodressing, kött, karamelliserad lök, rucola och tomatskivor, och serverar dem med klyftpotatis kryddade med vitlök.</string>
+
+    <string name="starter_one">Starter</string>
+    <string name="starter_two">Starter</string>
+    <string name="starter_three">Starter</string>
+
+    <string name="finisher_one">Finisher</string>
+    <string name="finisher_two">Finisher</string>
+    <string name="finisher_three">cream caramel</string>
+
+</resources>

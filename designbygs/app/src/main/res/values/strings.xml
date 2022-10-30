@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">designbygs</string>
+    <string name="bygs">BYGS</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="maybe">MAYBE</string>
+    <string name="zenmode">Switch</string>
+    <string name="diss_like">CheckBox</string>
+    <string name="sayhello"> Hello</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="new_string">En ny text</string>
+    <string name="text_top">TTITLE</string>
+    <string name="text_hello">Hello World!</string>
+</resources>

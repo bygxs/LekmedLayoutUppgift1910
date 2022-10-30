@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">1LayourResourceChallenge</string>
+    <string name="roy_g_biv"> Roy G.Biv</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLATE</string>
+    <string name="black">BLACK</string>
+
+
+</resources>
