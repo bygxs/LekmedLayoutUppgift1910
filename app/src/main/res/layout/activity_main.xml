@@ -23,6 +23,9 @@
         tools:layout_height="200dp"
 
 
+        tools:listitem="@layout/list_item_custom"
+
+
     />
 
 
