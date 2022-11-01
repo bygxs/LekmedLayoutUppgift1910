@@ -9,14 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class NewActivity extends AppCompatActivity {
-
     TextView textView;
     TextView number;
-
     Button button;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +22,8 @@ public class NewActivity extends AppCompatActivity {
         number = findViewById(R.id.textview_number);
 
         String t = getIntent().getStringExtra("text_content");
-        int i = getIntent().getIntExtra("number",0); // the number five in MainActivity
+       // int i = getIntent().getIntExtra("number",0); // the number five in MainActivity
+        String i = getIntent().getStringExtra("number");
 
         textView.setText(t);
         number.setText(String.valueOf(i));
@@ -38,7 +34,6 @@ public class NewActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 // save to prefences sharedPrefs can be used instead of all this
 
                 Intent i = new Intent(NewActivity.this, MainActivity.class);
@@ -47,8 +42,6 @@ public class NewActivity extends AppCompatActivity {
 
             }
         });
-
-
 
 
 
