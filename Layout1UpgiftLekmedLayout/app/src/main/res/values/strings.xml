@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Layout1UpgiftLekmedLayout</string>
-    <string name="first_textview_element">My hello world ONE</string>
-    <string name="second_textview_element">My hello world TWO</string>
-    <string name="third_textview_element">My hello world THIRD</string>
-</resources>
